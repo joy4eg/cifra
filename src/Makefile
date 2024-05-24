@@ -1,5 +1,6 @@
 CFLAGS += -g -O0 -std=gnu99 -fPIC -Wall -Wextra -Werror \
 	  -Wno-unused-parameter -Wno-missing-field-initializers
+CFLAGS += -I../include/cifra
 CPPFLAGS += -I./ext
 
 ifdef WITH_ASAN
